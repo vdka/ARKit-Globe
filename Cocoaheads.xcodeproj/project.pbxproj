@@ -13,17 +13,18 @@
 		5D4BDDF61EE63DA700D5987B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4BDDF41EE63DA700D5987B /* Main.storyboard */; };
 		5D4BDDF81EE63DA700D5987B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D4BDDF71EE63DA700D5987B /* Assets.xcassets */; };
 		5D4BDDFB1EE63DA700D5987B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4BDDF91EE63DA700D5987B /* LaunchScreen.storyboard */; };
-		5D6127171EE6647B00CE4A33 /* earth_normals.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D6127101EE6647A00CE4A33 /* earth_normals.png */; };
-		5D6127181EE6647B00CE4A33 /* earth_diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D6127111EE6647B00CE4A33 /* earth_diffuse.jpg */; };
-		5D6127191EE6647B00CE4A33 /* earth_clouds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D6127121EE6647B00CE4A33 /* earth_clouds.jpg */; };
-		5D61271A1EE6647B00CE4A33 /* earth_ambient2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5D6127131EE6647B00CE4A33 /* earth_ambient2.jpeg */; };
-		5D61271B1EE6647B00CE4A33 /* earth_specular.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D6127141EE6647B00CE4A33 /* earth_specular.jpg */; };
-		5D61271C1EE6647B00CE4A33 /* earth_clouds.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D6127151EE6647B00CE4A33 /* earth_clouds.png */; };
-		5D61271D1EE6647B00CE4A33 /* earth_ambient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D6127161EE6647B00CE4A33 /* earth_ambient.jpg */; };
-		5D61271F1EE6649E00CE4A33 /* texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D61271E1EE6649D00CE4A33 /* texture.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D497AA41EE8B1B000D96DFB /* earth_diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth_diffuse.jpg; sourceTree = "<group>"; };
+		5D497AA51EE8B1B000D96DFB /* earth_clouds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth_clouds.jpg; sourceTree = "<group>"; };
+		5D497AA61EE8B1B000D96DFB /* earth_ambient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth_ambient.jpg; sourceTree = "<group>"; };
+		5D497AA71EE8B1B000D96DFB /* texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture.png; sourceTree = "<group>"; };
+		5D497AA81EE8B1B000D96DFB /* earth_normals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth_normals.png; sourceTree = "<group>"; };
+		5D497AA91EE8B1B000D96DFB /* earth_specular.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth_specular.jpg; sourceTree = "<group>"; };
+		5D497AAA1EE8B1B000D96DFB /* earth_ambient2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth_ambient2.jpeg; sourceTree = "<group>"; };
+		5D497AAB1EE8B1B000D96DFB /* earth_clouds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth_clouds.png; sourceTree = "<group>"; };
+		5D497AAC1EE8B4DC00D96DFB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5D4BDDEB1EE63DA700D5987B /* Cocoaheads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cocoaheads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D4BDDEE1EE63DA700D5987B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D4BDDF01EE63DA700D5987B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -32,14 +33,6 @@
 		5D4BDDF71EE63DA700D5987B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D4BDDFA1EE63DA700D5987B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D4BDDFC1EE63DA700D5987B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D6127101EE6647A00CE4A33 /* earth_normals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = earth_normals.png; path = "../../../../Downloads/iOS-8-SceneKit-Globe-Test-master/SceneKitTest/earth_normals.png"; sourceTree = "<group>"; };
-		5D6127111EE6647B00CE4A33 /* earth_diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = earth_diffuse.jpg; path = "../../../../Downloads/iOS-8-SceneKit-Globe-Test-master/SceneKitTest/earth_diffuse.jpg"; sourceTree = "<group>"; };
-		5D6127121EE6647B00CE4A33 /* earth_clouds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = earth_clouds.jpg; path = "../../../../Downloads/iOS-8-SceneKit-Globe-Test-master/SceneKitTest/earth_clouds.jpg"; sourceTree = "<group>"; };
-		5D6127131EE6647B00CE4A33 /* earth_ambient2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = earth_ambient2.jpeg; path = "../../../../Downloads/iOS-8-SceneKit-Globe-Test-master/SceneKitTest/earth_ambient2.jpeg"; sourceTree = "<group>"; };
-		5D6127141EE6647B00CE4A33 /* earth_specular.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = earth_specular.jpg; path = "../../../../Downloads/iOS-8-SceneKit-Globe-Test-master/SceneKitTest/earth_specular.jpg"; sourceTree = "<group>"; };
-		5D6127151EE6647B00CE4A33 /* earth_clouds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = earth_clouds.png; path = "../../../../Downloads/iOS-8-SceneKit-Globe-Test-master/SceneKitTest/earth_clouds.png"; sourceTree = "<group>"; };
-		5D6127161EE6647B00CE4A33 /* earth_ambient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = earth_ambient.jpg; path = "../../../../Downloads/iOS-8-SceneKit-Globe-Test-master/SceneKitTest/earth_ambient.jpg"; sourceTree = "<group>"; };
-		5D61271E1EE6649D00CE4A33 /* texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = texture.png; path = "../../../../Downloads/iOS-8-SceneKit-Globe-Test-master/SceneKitTest/Images.xcassets/texture.imageset/texture.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +49,7 @@
 		5D4BDDE21EE63DA700D5987B = {
 			isa = PBXGroup;
 			children = (
+				5D497AAC1EE8B4DC00D96DFB /* README.md */,
 				5D4BDDED1EE63DA700D5987B /* Cocoaheads */,
 				5D4BDDEC1EE63DA700D5987B /* Products */,
 			);
@@ -79,14 +73,14 @@
 				5D4BDDF71EE63DA700D5987B /* Assets.xcassets */,
 				5D4BDDF91EE63DA700D5987B /* LaunchScreen.storyboard */,
 				5D4BDDFC1EE63DA700D5987B /* Info.plist */,
-				5D6127161EE6647B00CE4A33 /* earth_ambient.jpg */,
-				5D6127131EE6647B00CE4A33 /* earth_ambient2.jpeg */,
-				5D6127121EE6647B00CE4A33 /* earth_clouds.jpg */,
-				5D6127151EE6647B00CE4A33 /* earth_clouds.png */,
-				5D6127111EE6647B00CE4A33 /* earth_diffuse.jpg */,
-				5D61271E1EE6649D00CE4A33 /* texture.png */,
-				5D6127101EE6647A00CE4A33 /* earth_normals.png */,
-				5D6127141EE6647B00CE4A33 /* earth_specular.jpg */,
+				5D497AA61EE8B1B000D96DFB /* earth_ambient.jpg */,
+				5D497AAA1EE8B1B000D96DFB /* earth_ambient2.jpeg */,
+				5D497AA51EE8B1B000D96DFB /* earth_clouds.jpg */,
+				5D497AAB1EE8B1B000D96DFB /* earth_clouds.png */,
+				5D497AA91EE8B1B000D96DFB /* earth_specular.jpg */,
+				5D497AA41EE8B1B000D96DFB /* earth_diffuse.jpg */,
+				5D497AA81EE8B1B000D96DFB /* earth_normals.png */,
+				5D497AA71EE8B1B000D96DFB /* texture.png */,
 			);
 			path = Cocoaheads;
 			sourceTree = "<group>";
@@ -149,18 +143,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D6127191EE6647B00CE4A33 /* earth_clouds.jpg in Resources */,
-				5D61271B1EE6647B00CE4A33 /* earth_specular.jpg in Resources */,
-				5D61271D1EE6647B00CE4A33 /* earth_ambient.jpg in Resources */,
-				5D61271F1EE6649E00CE4A33 /* texture.png in Resources */,
 				5D4BDDF11EE63DA700D5987B /* art.scnassets in Resources */,
-				5D6127181EE6647B00CE4A33 /* earth_diffuse.jpg in Resources */,
 				5D4BDDFB1EE63DA700D5987B /* LaunchScreen.storyboard in Resources */,
-				5D61271A1EE6647B00CE4A33 /* earth_ambient2.jpeg in Resources */,
 				5D4BDDF81EE63DA700D5987B /* Assets.xcassets in Resources */,
 				5D4BDDF61EE63DA700D5987B /* Main.storyboard in Resources */,
-				5D61271C1EE6647B00CE4A33 /* earth_clouds.png in Resources */,
-				5D6127171EE6647B00CE4A33 /* earth_normals.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

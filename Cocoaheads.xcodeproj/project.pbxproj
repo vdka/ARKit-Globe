@@ -13,6 +13,7 @@
 		5D4BDDF61EE63DA700D5987B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4BDDF41EE63DA700D5987B /* Main.storyboard */; };
 		5D4BDDF81EE63DA700D5987B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D4BDDF71EE63DA700D5987B /* Assets.xcassets */; };
 		5D4BDDFB1EE63DA700D5987B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4BDDF91EE63DA700D5987B /* LaunchScreen.storyboard */; };
+		5D96C3361EEBE0FE002B5FA5 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D96C3351EEBE0F7002B5FA5 /* ARKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		5D4BDDF71EE63DA700D5987B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D4BDDFA1EE63DA700D5987B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D4BDDFC1EE63DA700D5987B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D96C3351EEBE0F7002B5FA5 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D96C3361EEBE0FE002B5FA5 /* ARKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +55,7 @@
 				5D497AAC1EE8B4DC00D96DFB /* README.md */,
 				5D4BDDED1EE63DA700D5987B /* Cocoaheads */,
 				5D4BDDEC1EE63DA700D5987B /* Products */,
+				5D96C3341EEBE0F7002B5FA5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +87,14 @@
 				5D497AA71EE8B1B000D96DFB /* texture.png */,
 			);
 			path = Cocoaheads;
+			sourceTree = "<group>";
+		};
+		5D96C3341EEBE0F7002B5FA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D96C3351EEBE0F7002B5FA5 /* ARKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
